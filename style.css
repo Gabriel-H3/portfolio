@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    align-items: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;         
+    left: 0;
+    z-index: 1000; 
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+#texto-portfolio{
+    margin-left: 30px;
+}
+
+.imagem-cabecalho{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.imagem-cabecalho img{
+    width: 70px;      
+    height: 67px;    
+    border-radius: 50%; 
+    object-fit: cover; 
+    cursor: pointer; 
+}
+
+.menu-opcoes li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-opcoes li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: beige;
+}
+
+.menu-opcoes li a:hover{
+    color: red;
+}
+
+body{
+    /*background-image: url(https://wallpapercave.com/wp/wp15734487.jpg);*/
+    /*background-image: url(https://c4.wallpaperflare.com/wallpaper/826/269/181/persona-5-video-games-persona-series-wallpaper-preview.jpg);*/
+    background-image: url("imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.imagem-corpo{
+   width: calc(100% + 140px); 
+    height: 75px;             
+    object-fit: cover;         
+    object-position: center;  
+    margin: 20px 0 20px -70px; 
+    display: block;
+}
+
+.corpo{
+    background-color: black;
+    width: 80%;              
+    margin: 100px auto;       
+    padding: 70px;   
+    text-align: center;  
+    border-radius: 5%;
+}
+
+#aboutme {
+    scroll-margin-top: 120px; 
+}
+
+#projetos {
+    scroll-margin-top: 120px; 
+}
+
+.cards{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 30px;
+    border: 5px solid white;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 75px;
+}
+
+.card button{
+    font-size: 17px;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-family: "DynaPuff", system-ui;
+}
+
+h2{
+    padding-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    padding: 20px;
+    font-family: "DynaPuff", system-ui;
+    
+}
